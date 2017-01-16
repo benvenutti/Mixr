@@ -36,7 +36,7 @@ ComboBox {
         background: Rectangle { color: "#f8f8f8" }
         implicitHeight: listview.contentHeight
 
-        closePolicy: Popup.NoAutoClose //new comment for #1-ports
+        closePolicy: Popup.NoAutoClose //new 02 comment for #1-ports
 
         contentItem: ListView {
             id: listview
